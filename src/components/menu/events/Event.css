@@ -1,0 +1,26 @@
+.event {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 16px;
+  background-color: var(--secondaryColor);
+  box-shadow: -1rem 0 3rem #000000;
+
+  transition: 0.2s;
+}
+
+.event:hover {
+  transform: translateY(-1rem);
+}
+
+.event:hover ~ .event {
+  transform: translateX(130px);
+}
+
+.event:not(:first-child) {
+  margin-left: -130px;
+}
+
+.event img {
+  width: 100%;
+}

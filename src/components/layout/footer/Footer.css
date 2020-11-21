@@ -1,25 +1,18 @@
 .footer {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
   text-align: center;
+  padding-bottom: 30px;
 }
 
-.footer h1 {
-  text-decoration: none;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: var(--mainSpacing);
-  color: white;
+.footer a {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.footer h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+.social-media-link {
+  transition: 0.3s;
 }
 
-.footer-row {
-  padding-top: 20px;
-}
-
-.footer-inner-row {
-  padding-top: 10px;
+.social-media-link:hover {
+  color: var(--primaryColor) !important;
 }

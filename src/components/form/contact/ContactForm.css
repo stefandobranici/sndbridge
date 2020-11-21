@@ -1,5 +1,5 @@
 form {
-  color: var(--primaryColor);
+  color: var(--mainWhite);
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
@@ -15,7 +15,7 @@ form .col {
 form h2 {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: var(--primaryColor);
+  color: var(--mainWhite);
   background-color: var(--mainBlack) !important;
 }
 
@@ -41,11 +41,11 @@ form .btn-primary {
 form .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-  background-color: var(--mainBlack) !important;
+  background-color: black !important;
   border-color: var(--primaryColor) !important;
   color: var(--primaryColor) !important;
 }
 
 .form-control {
-  background-color: var(--primaryColor) !important;
+  background-color: var(--secondaryColor) !important;
 }

@@ -1,14 +1,18 @@
 import React from "react";
 
 import Banner from "../components/layout/banner/Banner";
+import EventList from "../components/menu/events/EventList";
+
+import { events } from "../repository/events";
 
 export const Events = () => {
   return (
     <div>
       <Banner
         title="Our events"
-        subtitle="Check out our highlighted cocktails and special deals we have for you"
+        subtitle="Check out our past and upcoming events"
       />
+      <EventList eventList={events} />
     </div>
   );
 };

@@ -9,7 +9,7 @@
   height: 80px;
   background: var(--offWhite);
   z-index: 10;
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
 }
 .nav-header {
   display: flex;
@@ -24,7 +24,7 @@
 }
 .nav-icon {
   font-size: 1.5rem;
-  color: var(--secondaryColor);
+  color: var(--primaryColor);
 }
 
 .nav-icon-social-media {
@@ -34,7 +34,7 @@
 .nav-logo-container {
   height: 80px;
   width: 180px;
-  background-color: var(--secondaryColor);
+  background-color: var(--primaryColor);
   text-align: center;
 }
 
@@ -76,16 +76,16 @@
   color: white;
 }
 .nav-links a:hover {
-  color: var(--secondaryColor);
+  color: var(--primaryColor);
 }
 
 .nav-links-li-active {
-  color: var(--secondaryColor) !important;
+  color: var(--primaryColor) !important;
 }
 
 .show-nav {
   height: 280px;
-  background-color: rgb(34, 34, 34);
+  background-color: var(--secondaryColor);
   width: 100vw;
 }
 

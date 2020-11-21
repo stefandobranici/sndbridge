@@ -1,13 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link, withRouter } from "react-router-dom";
-import { AiOutlineFieldTime } from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
+import { withRouter } from "react-router-dom";
 
 import Carousel from "../components/carousel/Carousel";
-import LineBreak from "../components/layout/linebreak/LineBreak";
+import Banner from "../components/layout/banner/Banner";
+import DjCardList from "../components/menu/dj/DjCardList";
+import ImageGallery from "../components/image-gallery/ImageGallery";
+import EventList from "../components/menu/events/EventList";
 
+import { events } from "../repository/events";
+import { djsRepository } from "../repository/djs";
 import { homePageContent } from "../repository/content";
+import { subGallery } from "../repository/gallery";
 
 import "./styles/Home.css";
 
@@ -16,6 +20,9 @@ export const Home = () => {
     <div>
       <Carousel />
       <Header />
+      <Djs />
+      <Events />
+      <Gallery />
     </div>
   );
 };
@@ -39,6 +46,39 @@ const Header = () => {
         </Col>
       </Row>
     </Container>
+  );
+};
+
+const Djs = () => {
+  return (
+    <div>
+      <Banner
+        title="Our DJs"
+        subtitle="DJs from all across the UK come to Second Bridge to electrify the night"
+      />
+      <DjCardList djList={djsRepository} />
+    </div>
+  );
+};
+
+const Events = () => {
+  return (
+    <div>
+      <Banner title="Our Events" subtitle="Join one of our upcoming events" />
+      <EventList eventList={events} />
+    </div>
+  );
+};
+
+const Gallery = () => {
+  return (
+    <div>
+      <Banner
+        title="Gallery"
+        subtitle="Check out photos taken from our venue"
+      />{" "}
+      <ImageGallery gallery={subGallery} />
+    </div>
   );
 };
 

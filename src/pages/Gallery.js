@@ -8,7 +8,7 @@ export const Gallery = () => {
     <div>
       <Banner
         title="The Gallery"
-        subtitle="Check out photographies taken from our venues"
+        subtitle="Check out photos taken from our venue"
       />{" "}
       <ImageGallery gallery={gallery} />
     </div>

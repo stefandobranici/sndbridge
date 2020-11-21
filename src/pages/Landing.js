@@ -16,9 +16,9 @@ export const Landing = () => {
             <Row className="justify-content-center">
               <Col xs={"auto"}>
                 <div className="logoWrapper">
-                  <a href="http://secondbridge.co.uk/">
+                  <Link to="/home">
                     <Image className="logo" src={secondBridgeLogo} />
-                  </a>
+                  </Link>
                 </div>
               </Col>
             </Row>
@@ -27,9 +27,9 @@ export const Landing = () => {
             <Row className="justify-content-center">
               <Col xs={"auto"}>
                 <div className="logoWrapper">
-                  <Link to="/home">
+                  <a href="http://earlbar.co.uk">
                     <Image className="logo" src={earlLogo} />
-                  </Link>
+                  </a>
                 </div>
               </Col>
             </Row>
@@ -40,14 +40,14 @@ export const Landing = () => {
       <Container fluid className="mobile">
         <Row className="landingSecondBridge justify-content-center">
           <Col className="logoWrapper" xs={"auto"}>
-            <a href="http://secondbridge.co.uk/">
+            <Link to="/home">
               <Image className="logo" src={secondBridgeLogo} />
-            </a>
+            </Link>
           </Col>
         </Row>
         <Row className="landingEarl justify-content-center">
           <Col className="logoWrapper" xs={"auto"}>
-            <a href="/home">
+            <a href="http://earlbar.co.uk">
               <Image className="logo" src={earlLogo} />
             </a>
           </Col>

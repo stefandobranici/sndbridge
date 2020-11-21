@@ -34,7 +34,6 @@
 
 .home-header {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .home-header p {
@@ -59,8 +58,13 @@ h1 {
 }
 
 .main hr {
-  width: 20%;
+  width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
   border: 3px solid var(--primaryColor);
+}
+
+.main p {
+  font-weight: 800;
+  font-size: 1.3rem;
 }
