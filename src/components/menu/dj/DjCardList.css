@@ -4,12 +4,6 @@
   margin-bottom: 100px;
 }
 
-.dj-card-list-mobile {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-
 @media screen and (min-width: 1000px) {
   .mobile {
     display: none;
@@ -19,5 +13,10 @@
 @media screen and (max-width: 1000px) {
   .desktop {
     display: none;
+  }
+
+  .mobile {
+    margin-top: 30px;
+    margin-bottom: 100px;
   }
 }

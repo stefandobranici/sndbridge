@@ -15,13 +15,11 @@ export default function DjCardList({ djList }) {
         </Col>
       </Row>
       <Row className="mobile">
-        <div className="dj-card-list-mobile">
-          {djList.map((djItem) => (
-            <Col xs={12}>
-              <DjCard dj={djItem} />
-            </Col>
-          ))}
-        </div>
+        {djList.map((djItem) => (
+          <Col xs={12}>
+            <DjCard dj={djItem} />
+          </Col>
+        ))}
       </Row>
     </Container>
   );
