@@ -43,6 +43,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  overflow-x: hidden;
 }
 h1 {
   font-family: Century Gothic, sans-serif;
