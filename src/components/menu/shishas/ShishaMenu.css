@@ -1,0 +1,31 @@
+.shisha-section {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3dQlw_CBBJ9M_pZv2NI_2caL_jayxAIzjfyh95JFLmTi2qMXrVOJjrxt0Icv305uzNY9t5qJiav5pK4NOGji_P44GfkLHlvYbvEUArkpHorzXJMaAQRzh5onTIg-kg_sFqbBbyr27ys1ffz6PaIH0at=w1926-h1124-no?authuser=0")
+    center/cover no-repeat;
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.shisha-section-col {
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.6);
+  color: var(--mainWhite);
+}
+
+.shisha-section-col h1 {
+  padding-top: 3vh;
+  font-size: 2rem;
+}
+
+.shisha-list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.shisha-list-item {
+  padding-bottom: 1rem;
+}
+
+.shisha-list-item:hover {
+  color: var(--primaryColor);
+}

@@ -1,0 +1,67 @@
+.tabs {
+  justify-content: center;
+  text-align: center;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .tabs {
+    font-size: 1rem;
+  }
+}
+
+.tabs > .nav-item {
+  color: #af9a7d;
+  background-color: #222;
+  border: none;
+  margin-left: 10px;
+}
+
+.tabs > .nav-item:hover {
+  color: #222;
+  background-color: #af9a7d;
+  border: none;
+  margin-left: 10px;
+}
+
+.tabs > .nav-link.active {
+  color: #222;
+  background-color: #af9a7d;
+  border: none;
+  margin-left: 10px;
+}
+
+.tab-content {
+  background: url("https://lh3.googleusercontent.com/pw/ACtC-3divaGMT1Qbe5cWUJZ92z0F7FxTYzyE4Cr8Lqo-ny2fC8zGOMeuAVNbWEKPHL1OV5MpklRAQ1oAOtTRgm1NmAG4j14RQATALQSGrqox1vqe_jjAKCnDdRbyef9vIPQkqB0Seri6YT1H7c54kX6zeo8P=w2048-h1160-no?authuser=0")
+    center/cover no-repeat;
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.drink-item {
+  border: 2px solid #af9a7d;
+}
+
+.menu-list {
+  background-color: rgba(34, 34, 34, 0.6) !important;
+  padding: 10px 20px 0px 20px;
+  color: #af9a7d;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.menu-list h3 {
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+.menu-list hr {
+  background-color: #af9a7d !important;
+  height: 0.1rem;
+  width: 25%;
+  margin-left: 37.5%;
+}

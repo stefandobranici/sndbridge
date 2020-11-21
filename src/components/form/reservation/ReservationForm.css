@@ -1,0 +1,52 @@
+form {
+  background-color: rgb(34, 34, 34);
+  color: var(--primaryColor);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+  border-radius: 0.5rem;
+}
+
+form .col {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+form h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(49, 49, 49);
+  color: var(--primaryColor);
+}
+
+form input,
+select {
+  background-color: #af9a7d !important;
+}
+
+form .btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+form .btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--mainBlack) !important;
+  border-color: var(--primaryColor) !important;
+  color: var(--primaryColor) !important;
+}
+
+.form-control {
+  background-color: var(--primaryColor) !important;
+}

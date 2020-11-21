@@ -1,0 +1,73 @@
+/** image gallery begin css */
+
+.image-gallery-item-l {
+  height: 530px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.image-gallery-item-m {
+  height: 250px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.image-gallery-item-s {
+  height: 250px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.image-gallery-carousel {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.image-gallery-carousel-visibile {
+  position: fixed;
+  z-index: 90;
+  width: 90%;
+  height: 80%;
+  top: calc(10%);
+  bottom: calc(10%);
+  right: calc(5%);
+  align-content: center;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.image-gallery-carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.image-gallery-carousel-img {
+  width: 100%;
+  height: 100%;
+}
+
+.button-close {
+  visibility: hidden;
+  display: none;
+}
+
+.button-close-visible {
+  color: var(--primaryColor);
+  font-size: 3rem;
+  position: fixed;
+  z-index: 91;
+  top: calc(20%);
+  right: calc(10%);
+}
+
+.button-close-visible:hover {
+  color: var(--mainBlack);
+}
+/** image gallery end css */
