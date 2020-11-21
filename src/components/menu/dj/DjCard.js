@@ -6,7 +6,7 @@ export default function DjCard({ dj }) {
     <article class="dj-card">
       <header class="dj-card-header">
         <a class="dj-avatar" href={dj.link}>
-          <img src={dj.profile} />
+          <img src={dj.profile} alt="" />
         </a>
         <h2>{dj.name}</h2>
         <p>{dj.description}</p>

@@ -1,12 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { AiOutlineFieldTime } from "react-icons/ai";
-import { GoLocation } from "react-icons/go";
-
-import ReservationForm from "../components/form/reservation/ReservationForm";
 import ContactForm from "../components/form/contact/ContactForm";
 import Banner from "../components/layout/banner/Banner";
-import LineBreak from "../components/layout/linebreak/LineBreak";
 
 import "./styles/ContactUs.css";
 
