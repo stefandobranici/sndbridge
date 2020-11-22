@@ -1,11 +1,11 @@
 export const djsRepository = [
   {
-    name: "DJ RACK KAY",
+    name: "DJ RACH KAY",
     description:
-      "Hey, im rach kay and i’ve been djing for 4 years. I started learning to dj when I was at Uni in Bristol, after working in a few different night clubs! I then kept practicing at home and got my first residency, playing every friday night for 6 hours! Since then i’ve been lucky enough to play all over the UK, as well as internationally in places such as Vancouver, Ibiza, Marbella and Greece! I’ve also warmed up for Ne-yo, HER and The Internet on their UK tours, and have been featured on  BBC 1xtra, KISS FM and Capital Xtra. I am also a resident DJ on BBC Wiltshire, and all of my mixtapes & radio shows can be found at www.mixcloud.com/rachkaydj",
+      "Hey, im Rach Kay and I’ve been DJing for 4 years. I started learning to DJ when I was at Uni in Bristol, after working in a few different night clubs! I then kept practicing at home and got my first residency, playing every friday night for 6 hours! Since then i’ve been lucky enough to play all over the UK, as well as internationally in places such as Vancouver, Ibiza, Marbella and Greece! I’ve also warmed up for Ne-yo, HER and The Internet on their UK tours, and have been featured on  BBC 1xtra, KISS FM and Capital Xtra. I am also a resident DJ on BBC Wiltshire.",
     profile:
       "https://thumbnailer.mixcloud.com/unsafe/320x320/profile/7/8/0/e/fdad-3204-4a0d-b2e4-804e589b61c8",
-    link: "#",
+    link: "https://www.mixcloud.com/rachkaydj",
   },
   {
     name: "DJ DYLAN ENGLISH",
@@ -13,7 +13,7 @@ export const djsRepository = [
       "Dylan English is a Bath/Bristol based Multi-genre DJ, known for his ability to adapt to any crowd with floor-filling sets that include Hip-Hop, R&B, Pop, Cheese, Drum & Bass, House and Garage.\n\nDylan has been spinning the latest hits from artists such as Drake, AJ Tracey and Travis Scott in clubs up and down the UK for the past five years but his love of Hip-Hop and R&B stretches back to the classics of Wu-Tang Clan, Biggie Smalls and Lauryn Hill. You can expect his sets to showcase a diverse, exciting and decade-spanning mix of tunes that are sure to get any party going.",
     profile:
       "https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-15/e35/s480x480/62251096_920039868339967_4105282960291003732_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=107&_nc_ohc=d4w0KaN5nzIAX9uhVyI&tp=1&oh=280a4823ac0208c610ab604d481d75a4&oe=5FE2BED0",
-    link: "#",
+    link: "https://www.facebook.com/dylan.english.16",
   },
   {
     name: "DJ PAUL CARROLL",
@@ -21,7 +21,7 @@ export const djsRepository = [
       "Paul Carroll is one of the South-West's hottest DJ's, with a reputation that's got him spinning his magic in venues across the UK. From old skool classics to cutting edge tunes, Paul smashes it every time with his wicked sets and unique urban floor-filler vibes.\n\nPaul's experience on the decks started when he bought his first set at the age of 16, helping to develop a serious passion - and the talent to match. Pushing out mixtapes and fronting weekly RnB radio shows and club nights, it didn’t take long before Paul's fresh and diverse sounds caught the attention of the one of the country's biggest urban music brands, Twice As Nice. Taking to the decks as a resident DJ, he worked with the likes of Trevor Nelson, Mista Jam, Tim Westwood, Charlie Sloth, DJ Target & more.",
     profile:
       "https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/22221875_10155095696794071_8624927813085525146_n.jpg?_nc_cat=108&ccb=2&_nc_sid=174925&_nc_ohc=TmTdo1y6gGcAX85KrDX&_nc_ht=scontent-lht6-1.xx&oh=3c55831ee55da4fc871b39f2dc59f0e2&oe=5FE0129F",
-    link: "#",
+    link: "https://www.mixcloud.com/PaulCarrollUk/",
   },
   {
     name: "DJ MARQUES HOUSE",
