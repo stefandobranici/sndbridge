@@ -7,6 +7,7 @@ import Banner from "../components/layout/banner/Banner";
 import DjCardList from "../components/menu/dj/DjCardList";
 import ImageGallery from "../components/image-gallery/ImageGallery";
 import EventList from "../components/menu/events/EventList";
+import CovidAlert from "../components/layout/alert/CovidAlert";
 
 import { events } from "../repository/events";
 import { djsRepository } from "../repository/djs";
@@ -19,6 +20,7 @@ export const Home = () => {
   return (
     <div>
       <Carousel />
+      <CovidAlert />
       <Header />
       <Djs />
       <Events />
@@ -54,7 +56,7 @@ const Djs = () => {
     <div>
       <Banner
         title="Our DJs"
-        subtitle="DJs from all across the UK come to Second Bridge to electrify the night"
+        subtitle="Only bringing in the very best artists of the South-West"
       />
       <DjCardList djList={djsRepository} />
     </div>
@@ -64,7 +66,10 @@ const Djs = () => {
 const Events = () => {
   return (
     <div>
-      <Banner title="Our Events" subtitle="Join one of our upcoming events" />
+      <Banner
+        title="Our Events"
+        subtitle="Checkout our past & upcoming events now!"
+      />
       <EventList eventList={events} />
     </div>
   );

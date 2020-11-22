@@ -11,7 +11,7 @@ export const Dj = () => {
       {" "}
       <Banner
         title="Our DJs"
-        subtitle="DJs from all across the UK come to Second Bridge to electrify the night"
+        subtitle="Only bringing in the very best artists of the South-West"
       />
       <DjCardList djList={djsRepository} />
     </div>

@@ -10,7 +10,7 @@ export const Events = () => {
     <div>
       <Banner
         title="Our events"
-        subtitle="Check out our past and upcoming events"
+        subtitle="Checkout our past & upcoming events now!"
       />
       <EventList eventList={events} />
     </div>
