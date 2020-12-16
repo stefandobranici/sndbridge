@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert, Form, Col, Button } from "react-bootstrap";
+import { Alert, Container, Form, Col, Button } from "react-bootstrap";
 import emailjs, { init } from "emailjs-com";
 
 import "./ContactForm.css";
@@ -120,64 +120,66 @@ export default class ContactForm extends React.Component {
 
   render() {
     return (
-      <Form
-        noValidate
-        validated={this.state.validated}
-        class="bookingForm"
-        onSubmit={this.handleSubmit}
-      >
-        <h2>Send us a Message</h2>
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>E-mail</Form.Label>
-            <Form.Control
-              required
-              type="email"
-              placeholder=""
-              onChange={(event) => this.handleChange(event, "email")}
-            />
-          </Form.Group>
+      <Container>
+        <Form
+          noValidate
+          validated={this.state.validated}
+          class="bookingForm"
+          onSubmit={this.handleSubmit}
+        >
+          <h2>Send us a Message</h2>
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Label>E-mail</Form.Label>
+              <Form.Control
+                required
+                type="email"
+                placeholder=""
+                onChange={(event) => this.handleChange(event, "email")}
+              />
+            </Form.Group>
 
-          <Form.Group as={Col} controlId="formGridPhone">
-            <Form.Label>Phone</Form.Label>
-            <Form.Control
-              required
-              type="tel"
-              onChange={(event) => this.handleChange(event, "phone")}
-            />
-          </Form.Group>
-        </Form.Row>
-        <Form.Row>
-          <Form.Group as={Col} controlId="formGridMessage">
-            <Form.Label>Your message:</Form.Label>
-            <Form.Control
-              required
-              size="lg"
-              as="textarea"
-              rows="10"
-              placeholder=""
-              onChange={(event) => this.handleChange(event, "message")}
-            />
-          </Form.Group>
-        </Form.Row>
+            <Form.Group as={Col} controlId="formGridPhone">
+              <Form.Label>Phone</Form.Label>
+              <Form.Control
+                required
+                type="tel"
+                onChange={(event) => this.handleChange(event, "phone")}
+              />
+            </Form.Group>
+          </Form.Row>
+          <Form.Row>
+            <Form.Group as={Col} controlId="formGridMessage">
+              <Form.Label>Your message:</Form.Label>
+              <Form.Control
+                required
+                size="lg"
+                as="textarea"
+                rows="10"
+                placeholder=""
+                onChange={(event) => this.handleChange(event, "message")}
+              />
+            </Form.Group>
+          </Form.Row>
 
-        <Form.Row>
-          <Form.Group as={Col} contorlId="formGridCheckbox">
-            <Form.Check
-              required
-              type="checkbox"
-              label="I agree that my submitted data is being collected and stored."
-              onChange={(event) => this.handleChange(event, "checkbox")}
-            />
-          </Form.Group>
-        </Form.Row>
+          <Form.Row>
+            <Form.Group as={Col} contorlId="formGridCheckbox">
+              <Form.Check
+                required
+                type="checkbox"
+                label="I agree that my submitted data is being collected and stored."
+                onChange={(event) => this.handleChange(event, "checkbox")}
+              />
+            </Form.Group>
+          </Form.Row>
 
-        <Button variant="primary" type="submit">
-          Send message
-        </Button>
-        {this.state.showSuccess ? this.showSuccessAlert() : null}
-        {this.state.showError ? this.showErrorAlert() : null}
-      </Form>
+          <Button variant="primary" type="submit">
+            Send message
+          </Button>
+          {this.state.showSuccess ? this.showSuccessAlert() : null}
+          {this.state.showError ? this.showErrorAlert() : null}
+        </Form>
+      </Container>
     );
   }
 }

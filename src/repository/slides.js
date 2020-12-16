@@ -11,7 +11,7 @@ const slides = [
     title: "Celebrate events",
     subtitle: "",
     description:
-      "With a VIP bar along with sectioned off Vaults, we’ve got you covered for going BIG",
+      "With a VIP bar along with sectioned off Vaults, we’ve got you covered for going BIG.",
     image:
       "https://lh3.googleusercontent.com/RZZiEnU3lD38sJg2hL911EN-glHfDXREKg2yLk0aHIGc-Qr5z3nzstwNYJx9B4HBJ6Wvg1pHKIjr9Uo3U0IXOsD9Tt2sLukHy8TFUGf0PZbo-WP8zBrw7P8lPqGmZcpz70ouLXXTq4j14-bkXhlJyWHlr2x4lA7-EfKYnf8gPkbCUt79TYkLDzyBtXEO5ZuDvWAaEYTDn9Ry1eujmKi9xU3H2aHs5d7b4KC_79BSmZk81wC0YT0JAdQzoO0Qjj4DYXpybEYtivqTqj7shd-41sstPb00460QHwoEitG1taH9CV1mMCm9nhujS-P73PRHRsoPMjFNpphrA7ICF_Jjfot6D0y0JYFkbgUntD-t4hu74NPvYlxboTRz5Y9US9pLBRK85d3pXc-TwBIsfzJ11gr8KacnBSasAVfgPPAdaS748W81em8YIQLYCwP1WrA2V6u24OtMNCQH4whn17ENBxjEOBg5mtt9kmke6OOfb404Siv2mwNwEsA7mO-t5nXYQfeatnA0FihN_sHl0qeWFCj1i4UZYH7LkdI4-3WjhbU2olKrCpDj11XHQLoHXk36khRZZXkEPX4-3x9jB_D7pHC3RMdsGva0EgEKT9Q39FVgGMB2AxokgSS5Mlg7fF_185Tox2pNUh2jU0Yvj9M-acFjAptdKzyQng3QSDJvR3Eo-MKsjnWqjDhTfPyu=w1931-h1031-no?authuser=0",
   },

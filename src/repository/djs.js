@@ -31,4 +31,12 @@ export const djsRepository = [
       "https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/91582469_2829764337102280_4361750485514846208_o.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=xhcJu12QsqIAX_zWz6q&_nc_ht=scontent-lht6-1.xx&oh=75322d581d4bb159325bacad2a3efe20&oe=5FDD0FA6",
     link: "#",
   },
+  {
+    name: "VARGA",
+    description:
+      "VARGA is a multi-genre Producer/DJ from Cornwall, based in Bath/Bristol. With 6 years of experience behind the decks specialising in DnB, Garage, House, Bassline and Disco. His own productions in Drum and Bass and House have also been recognised by established artists in the industry as well as BBC Introducing, leading to regular plays on local and national radio. As of recent, his music has been picked up and signed by notable Drum and Bass labels across the UK, growing him into a highly promising artist. His music brings high energy and good vibes that has led him to being someone that is not to be missed!",
+    profile:
+      "https://lh3.googleusercontent.com/pw/ACtC-3fpgCtD9Nyyg3yvQzpt_uPlgju64YkYWkzJ8uoMAkhfPsqgjYLFCgsmcCb3I3NERkmxi5e_szAD2Jf0zI-WYgQhMLgsaDZUvwbxE4ITaAb2_OzAwyxAWI9q_g29p7xan-jj0bMwAqZg3mJUw5v21GCk=w832-h746-no?authuser=0",
+    link: "https://soundcloud.com/benvargadj",
+  },
 ];

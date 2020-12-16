@@ -8,7 +8,8 @@ export const Gallery = () => {
     <div>
       <Banner
         title="The Gallery"
-        subtitle="Check out photos taken from our venue"
+        subtitle="Check out all our photos taken at Second Bridge below! See something you don’t like? Let us
+        know & we will be happy to remove any photos from our site!"
       />{" "}
       <ImageGallery gallery={gallery} />
     </div>

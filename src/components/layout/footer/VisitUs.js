@@ -8,7 +8,8 @@ export default function VisitUs() {
       <div className="visit-us-inner-content">
         <h1>Visit The Earl & Terrace</h1>
         <h2>
-          Looking for something more relaxing? Visit our cocktail and shisa bar!
+          Looking for something more relaxing? Visit our cocktail and shisha
+          bar!
         </h2>
         <a href="https://earlbar.co.uk/">
           <button type="button" className="btn-primary-main">
