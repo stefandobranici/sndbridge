@@ -48,13 +48,17 @@ export default function Footer() {
         <Col xs="auto">
           <Row className="footer-inner-row">
             <Col>
-              <MdLocalPhone style={{ fontSize: "2rem", color: "white" }} /> +44
-              1225 464449
+              <a href="tel:++441225464449">
+                <MdLocalPhone style={{ fontSize: "2rem", color: "white" }} />
+              </a>{" "}
+              +44 1225 464449
             </Col>
           </Row>
           <Row className="footer-inner-row">
             <Col>
-              <MdEmail style={{ fontSize: "2rem", color: "white" }} />{" "}
+              <a href="mailto:admin@secondbridge.co.uk">
+                <MdEmail style={{ fontSize: "2rem", color: "white" }} />
+              </a>{" "}
               admin@secondbridge.co.uk
             </Col>
           </Row>

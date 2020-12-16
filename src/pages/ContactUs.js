@@ -41,11 +41,17 @@ export const ContactUs = () => {
           </h3>
           <p>10 Manvers St Bath BA1 1JQ</p>
           <h3 style={{ marginTop: "50px" }}>
-            <MdLocalPhone style={{ color: "#af9a7d" }} /> Phone
+            <a href="tel:++441225464449">
+              <MdLocalPhone style={{ fontSize: "2rem", color: "#af9a7d" }} />
+            </a>{" "}
+            Phone
           </h3>
           <p>+44 1225 464449</p>
           <h3 style={{ marginTop: "50px" }}>
-            <MdEmail style={{ color: "#af9a7d" }} /> Email
+            <a href="mailto:admin@secondbridge.co.uk">
+              <MdEmail style={{ fontSize: "2rem", color: "#af9a7d" }} />
+            </a>{" "}
+            Email
           </h3>
           <p>admin@secondbridge.co.uk</p>
         </Col>
